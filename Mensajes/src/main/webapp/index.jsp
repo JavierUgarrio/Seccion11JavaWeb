@@ -28,10 +28,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title" id="exampleModalLabel">Modal title</h1>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                    <h1 class="modal-title">Proyecto Mensajes</h1>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -41,19 +38,13 @@
                         </div>
                         <div class="mb-3">
                             <label >Autor</label>
-                            <input type="text" class="form-control">
+                            <input type="text" name="mensaje" class="form-control">
                         </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                     
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="submit" class="btn btn-primary" name="enviar">Enviar</button>
                 </div>
             </div>
         </div>    
