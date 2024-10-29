@@ -14,17 +14,7 @@
 
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <p>probando JSP</p>
-        <%
-            String nombre = "Javier";
-            int edad = 21;
-            out.println("Mi nombre es: " + nombre);
-            out.println("Mi edad es: " + edad);
-        %>
-       
-
-       
+        <h1>Primer proyecto Java Web</h1>
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
