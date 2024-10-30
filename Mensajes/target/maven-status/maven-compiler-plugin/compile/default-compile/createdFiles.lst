@@ -1,2 +1,6 @@
-com\oregoon\mensajes\resources\JakartaEE10Resource.class
+com\oregoon\mensajes\Conexion.class
+com\oregoon\mensajes\Mensaje.class
+com\oregoon\mensajes\MensajeDao.class
+com\oregoon\mensajes\Main.class
 com\oregoon\mensajes\JakartaRestConfiguration.class
+com\oregoon\mensajes\resources\JakartaEE10Resource.class
