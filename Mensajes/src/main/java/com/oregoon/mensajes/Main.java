@@ -20,9 +20,9 @@ public class Main {
 //        int registro = mdao.editar(msm);
 //        System.out.println("Se edito: " + registro);
 
-        Mensaje msm = new Mensaje(12);
-        int registro = mdao.eliminar(msm);
-        System.out.println("Se elimino: "+ registro );
+//        Mensaje msm = new Mensaje(12);
+//        int registro = mdao.eliminar(msm);
+//        System.out.println("Se elimino: "+ registro );
          
         List<Mensaje>mensajes= mdao.seleccionar();
         for(Mensaje mensaje : mensajes){
